@@ -1,0 +1,39 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitHubOrganization": "sathyakumarseshachalam",
+    "baseName": "schoolregistration",
+    "packageName": "org.tnv.school",
+    "serverPort": 8080,
+    "serviceDiscoveryType": false,
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "elasticsearch",
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "gradle",
+    "enableSocialSignIn": true,
+    "useSass": false,
+    "clientPackageManager": "yarn",
+    "testFrameworks": [
+      "gatling"
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": [
+      "en",
+      "ta"
+    ],
+    "clientFramework": "angularX",
+    "jhipsterVersion": "4.13.3",
+    "packageFolder": "org/tnv/school",
+    "jwtSecretKey": "76eb1f2fb8161bfbf54a4d76f1eb7cbefce1f931",
+    "jhiPrefix": "jhi"
+  }
+}
